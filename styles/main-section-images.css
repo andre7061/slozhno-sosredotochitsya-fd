@@ -24,8 +24,6 @@
 
   .main-section-images__container {
     margin-top: 20px;
-  }
-  .main-section-images__container {
     gap: 20px;
     grid-template-columns: repeat(3, minmax(100px, 1fr));
     grid-template-rows: repeat(3, min-content);

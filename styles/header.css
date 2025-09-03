@@ -50,7 +50,6 @@
   text-align: center;
   height: 26px;
   cursor: pointer;
-
 }
 
 .header__theme-menu-button:hover {
@@ -63,6 +62,7 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--accent-color);
+  pointer-events: none;
 }
 
 .theme-light .header__rec-label {
@@ -89,12 +89,7 @@
   box-shadow: 0px 0px 4px 2px var(--accent-color);
 }
 
-.header__theme-menu-button_active {
-  pointer-events: none;
-}
-
 @media (width >= 768px) {
-
   .header {
     min-block-size: 1024px;
     padding: 0;
