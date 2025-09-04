@@ -1,0 +1,28 @@
+.section-advices {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 11px;
+}
+
+.section-advices .section__title {
+  grid-row: -1 / 1;
+}
+
+.section-advices .section__list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (width <= 1000px) {
+  .section-advices {
+    gap: 20px;
+  }
+}
+
+@media (width <= 767px) {
+  .section-advices {
+    grid-template-columns: 1fr;
+  }
+}

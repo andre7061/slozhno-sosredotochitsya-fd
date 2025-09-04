@@ -1,0 +1,23 @@
+.section-why {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 11px;
+}
+
+.section-why .section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (width <= 1000px) {
+  .section-why {
+    gap: 20px;
+  }
+}
+
+@media (width <= 767px) {
+  .section-why {
+    grid-template-columns: 1fr;
+  }
+}

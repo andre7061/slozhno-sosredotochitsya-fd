@@ -1,0 +1,35 @@
+.section {
+  padding: 0 20px;
+  margin: 0 auto 80px;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.card__subtitle {
+  margin-top: 10px;
+  line-height: 23.4px;
+  font-size: 18px;
+}
+
+.card__link {
+  text-shadow: 2px 2px 0 var(--accent-color);
+  text-decoration: none;
+}
+
+.card__link:focus {
+  outline: none;
+  border: 1px solid var(--text-color);
+}
+
+.card__link:hover {
+  border-bottom: 1px solid var(--text-color);
+}
+
+@media (width <= 760px) {
+  .section {
+    padding: 0 10px;
+    margin-bottom: 50px;
+  }
+}

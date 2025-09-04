@@ -6,4 +6,9 @@
   --color-title: rgba(0, 0, 40, 1);
   --color-title-bold: rgba(255, 0, 112, 1);
   --site-bg-color: rgba(0, 0, 40, 1);
+  --color-link: rgba(255, 0, 112, 1);
+  --text-shadow-footer: rgba(255, 0, 112, 1);
+}
+.theme-dark .header__rec-label {
+  display: block;
 }

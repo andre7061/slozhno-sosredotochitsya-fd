@@ -1,0 +1,24 @@
+.section-causes .section__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(315px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.section-causes .section__title {
+  max-width: 310px;
+}
+
+@media (width <= 1020px) {
+  .section-causes .section__list {
+    grid-template-columns: 1fr;
+  }
+  .section-causes .section__title {
+    max-width: 200px;
+  }
+}
+@media (width <= 767px) {
+  .section-causes .section__title {
+    max-width: 330px;
+  }
+}

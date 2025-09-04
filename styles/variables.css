@@ -10,4 +10,6 @@
   --site-bg-color: rgba(0, 0, 40, 1);
   --font-weight-normal: 400;
   --font-weight-heading: 700;
+  --color-link: rgba(255, 0, 112, 1);
+  --text-shadow-footer: rgba(255, 0, 112, 1);
 }
